@@ -27,6 +27,9 @@ jobs:
       
       - name: Print current directory
         run: pwd
+        
+      - name: list all files and directories
+        run: ls -la
 
       # Step 3: Install dependencies using Yarn
       - name: Install dependencies
