@@ -34,9 +34,8 @@ jobs:
       # Step 3: Install dependencies using Yarn
       - name: Install dependencies
         run: yarn install
-        working-directory: /HE-Practice/healthy-empowerer
+        
 
       # Step 4: Run Jest tests
       - name: Run unit tests
         run: yarn test --ci
-        working-directory: /HE-Practice/healthy-empowerer
