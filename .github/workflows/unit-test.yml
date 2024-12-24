@@ -39,5 +39,5 @@ jobs:
 
       # Step 4: Run Jest tests
       - name: Run unit tests
-        run: yarn test --ci
+        run: yarn test
         working-directory: healthy_empowerer
